@@ -1,0 +1,33 @@
+/* pages/swiper/index.wxss */
+swiper {
+    margin-bottom: 40rpx;
+}
+
+.switch-section {
+    padding:0 40rpx;
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    background:white;
+    line-height:100rpx;
+    font-size:14px;
+}
+
+.last-switch {
+    border-top: 0;
+}
+
+.slider-section {
+    margin-top: 40rpx;
+}
+
+.slider-section text {
+    color:#999;
+    font-size:12px;
+    margin-bottom:40rpx;
+    margin:10px 18px 40rpx;
+}
+
+.slider-section slider {
+    clear:both;
+    margin-top: 20rpx;
+}

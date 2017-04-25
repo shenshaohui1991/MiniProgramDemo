@@ -1,0 +1,23 @@
+<view class="wrapper">
+    <view class="title">swiper</view>
+    <swiper indicator-dots="{{showDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{true}}">
+        <swiper-item class="bg-green">A</swiper-item>
+        <swiper-item class="bg-red">B</swiper-item>
+        <swiper-item class="bg-gray">C</swiper-item>
+    </swiper>
+
+    <view class="switch-section">指示点<switch class="pull-right" type="switch" checked="{{showDots}}" bindchange="switchShowDots"></switch></view>
+    <view class="switch-section last-switch">自动播放<switch class="pull-right" type="switch" checked="{{autoplay}}" bindchange="switchAutoplay"></switch></view>
+
+    <view class="slider-section">
+        <text class="pull-left">自动播放间隔时长</text>
+        <text class="pull-right">{{interval}}</text>
+        <slider bindchange="sliderInterval" value="{{interval}}" min="2000" max="10000"/>
+    </view>
+
+    <view class="slider-section">
+        <text class="pull-left">幻灯片切换时长</text>
+        <text class="pull-right">{{duration}}</text>
+        <slider bindchange="sliderDuration" value="{{duration}}" min="500" max="2000"/>
+    </view>
+</view>

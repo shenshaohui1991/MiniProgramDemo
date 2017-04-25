@@ -1,0 +1,23 @@
+.item-container {
+    padding: 0 20rpx;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.item-container .title {
+    padding: 20rpx 0;
+}
+
+.item-container navigator {
+    border-bottom: 1px solid #eee;
+    line-height: 80rpx;
+}
+
+.item-container navigator:last-child {
+    border-bottom: 0;
+}
+
+.item-container navigator:after {
+    content: '>';
+    float: right;
+}

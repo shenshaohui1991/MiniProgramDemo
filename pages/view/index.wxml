@@ -1,0 +1,19 @@
+<view class="wrapper">
+    <view class="title">view</view>
+
+    <view class="subTitle">flex-direction: row;</view>
+    <view class="subTitle">横向布局</view>
+    <view class="flex-row">
+        <view class="bg-green">A</view>
+        <view class="bg-red">B</view>
+        <view class="bg-gray">C</view>
+    </view>
+
+    <view class="subTitle">flex-direction: column;</view>
+    <view class="subTitle">纵向布局</view>
+    <view class="flex-column">
+        <view class="bg-green">A</view>
+        <view class="bg-red">B</view>
+        <view class="bg-gray">C</view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/entries/index",
+    "pages/view/index",
+    "pages/scroll-view/index",
+    "pages/swiper/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo of Components",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}

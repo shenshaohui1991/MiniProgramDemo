@@ -1,0 +1,8 @@
+<view class="wrapper">
+    <view class="item-container">
+        <view class="container-title">视图容器</view>
+        <navigator url="/pages/view/index">view</navigator>
+        <navigator url="/pages/scroll-view/index">scroll-view</navigator>
+        <navigator url="/pages/swiper/index">swiper</navigator>
+    </view>
+</view>

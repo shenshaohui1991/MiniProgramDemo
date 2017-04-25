@@ -1,0 +1,5 @@
+/* pages/view/index.wxss */
+.flex-column,
+.flex-row {
+    margin: 100rpx 0;
+}

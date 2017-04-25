@@ -1,0 +1,19 @@
+<view class="wrapper">
+    <view class="title">scroll-view</view>
+
+    <view class="subTitle">vertical scroll</view>
+    <view class="subTitle">横向滚动</view>
+    <scroll-view class="scrollView-horz" scroll-x="true">
+        <view class="item-horz bg-green">A</view>
+        <view class="item-horz bg-red">B</view>
+        <view class="item-horz bg-gray">C</view>
+    </scroll-view>
+
+    <view class="subTitle">horizontal scroll</view>
+    <view class="subTitle">纵向滚动</view>
+    <scroll-view class="scrollView-vert" scroll-y="true">
+        <view class="item-vert bg-green">A</view>
+        <view class="item-vert bg-red">B</view>
+        <view class="item-vert bg-gray">C</view>
+    </scroll-view>
+</view>
